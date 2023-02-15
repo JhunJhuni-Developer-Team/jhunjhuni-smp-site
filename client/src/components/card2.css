@@ -1,0 +1,20 @@
+.items2 {
+  position: absolute;
+  color: rgb(0, 0, 0);
+  top: 15.3cm;
+  font-weight: bold;
+  left: 45%;
+}
+
+.items2 p {
+  padding: 0;
+  margin: 0;
+  line-height: 20px;
+  word-wrap: break-word;
+}
+
+@media (max-width: 1000px) {
+  .items2 {
+    left: 50%;
+  }
+}
