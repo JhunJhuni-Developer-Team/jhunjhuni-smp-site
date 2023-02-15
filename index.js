@@ -1,6 +1,21 @@
 const express = require("express");
 const path = require("node:path");
 const fs = require("node:fs");
+const chalk = require("chalk");
+const APIConfig = require("./api/api");
+const mainColor = chalk.bold.hex(`${APIConfig.LoggerConfig.mainColor}`);
+const hostNameColor = chalk.bold.hex(`${APIConfig.LoggerConfig.hostNameColor}`);
+const portColor = chalk.bold.hex(`${APIConfig.LoggerConfig.portColor}`);
+const httpColor = chalk.bold.hex(`${APIConfig.LoggerConfig.httpColor}`);
+const startedColor = chalk.bold.hex(`${APIConfig.LoggerConfig.startedColor}`);
+
+let loggerText = mainColor(APIConfig.LoggerConfig.loggerText)
+  .replace(/\{/g, "")
+  .replace(/\}/g, "")
+  .replace(/hostname/g, `${hostNameColor(APIConfig.ServerConfig.HostName)}`)
+  .replace(/port/g, `${portColor(APIConfig.ServerConfig.PORT)}`)
+  .replace(/started/g, `${startedColor("started")}`)
+  .replace(/http:\/\//g, `${httpColor("http://")}`);
 
 const directoryPath = "./api/api.js";
 
@@ -32,8 +47,8 @@ if (fs.existsSync(directoryPath)) {
     res.redirect(`https://discord.gg/invite/${url}`);
   });
 
-  app.listen(3000, () => {
-    console.log(`Server started on http://localhost:3000`);
+  app.listen(APIConfig.ServerConfig.PORT, () => {
+    console.log(`${loggerText}`);
   });
 } else {
   try {
