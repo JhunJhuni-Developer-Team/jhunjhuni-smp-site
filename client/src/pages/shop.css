@@ -1,0 +1,44 @@
+.extra-0000000000001 {
+  margin-top: 17cm;
+  color: transparent;
+  cursor: default;
+}
+.extra-0000000000001::selection {
+  color: transparent;
+  background-color: transparent;
+  cursor: default;
+}
+.shop {
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.a-rank {
+  position: relative;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+._aSnjL2 {
+  text-align: center;
+  transition: all 0.5s;
+}
+._aS7xK,
+.lPxD {
+  transition: all 0.5s;
+  color: blueviolet;
+  text-decoration: none;
+}
+.lPxD:hover {
+  transition: all 90ms;
+  color: rgb(99, 35, 160);
+}
+
+@media (max-width: 1036px) {
+  ._aSnjL2 {
+    position: relative;
+    bottom: 30px;
+    font-size: 20px;
+  }
+}
