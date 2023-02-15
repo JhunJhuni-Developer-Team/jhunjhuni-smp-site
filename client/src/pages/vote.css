@@ -1,0 +1,120 @@
+.vote {
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.ttX {
+  text-align: center;
+}
+
+.DLbTn80 {
+  text-align: center;
+  align-items: center;
+  text-decoration: none;
+}
+.txSMlaS9 {
+  position: relative;
+  top: 2cm;
+  left: 11.5cm;
+  background-color: #6af46f;
+  border-radius: 1rem;
+  cursor: pointer;
+  border-color: transparent;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  transition: 1s;
+}
+.txSMlaS9:hover {
+  transition: 0.5s;
+  box-shadow: 5px 5px 9px rgba(1, 255, 1, 0.481);
+}
+.txSMlaS10 {
+  position: relative;
+  top: 2cm;
+  left: 11.8cm;
+  background-color: #eb6af4;
+  border-radius: 1rem;
+  cursor: pointer;
+  border-color: transparent;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  transition: 1s;
+}
+.txSMlaS10:hover {
+  transition: 0.5s;
+  box-shadow: 5px 5px 9px rgba(255, 1, 242, 0.481);
+}
+.txSMlaS11 {
+  position: relative;
+  top: 2cm;
+  left: 12.1cm;
+  background-color: #f46a6a;
+  border-radius: 1rem;
+  cursor: pointer;
+  border-color: transparent;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  transition: 1s;
+}
+.txSMlaS11:hover {
+  transition: 0.5s;
+  box-shadow: 5px 5px 9px rgba(255, 1, 1, 0.481);
+}
+
+@media (max-width: 1037px) {
+  .txSMlaS9 {
+    left: 5cm;
+  }
+  .txSMlaS10 {
+    left: 5cm;
+  }
+  .txSMlaS11 {
+    left: 5cm;
+  }
+}
+
+@media (max-width: 855px) {
+  .txSMlaS9 {
+    left: 3cm;
+  }
+  .txSMlaS10 {
+    left: 3cm;
+  }
+  .txSMlaS11 {
+    left: 3cm;
+  }
+}
+
+@media (max-width: 780px) {
+  .txSMlaS9 {
+    position: static;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    margin-bottom: 10px;
+  }
+  .txSMlaS10 {
+    position: static;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    margin-bottom: 10px;
+  }
+  .txSMlaS11 {
+    position: static;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    margin-bottom: 10px;
+  }
+}
