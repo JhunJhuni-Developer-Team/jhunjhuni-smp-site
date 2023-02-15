@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "colors": "^1.4.0",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
+  },
+  "name": "jhunjhuni-server",
+  "version": "0.1.0",
+  "description": "Site!",
+  "main": "index.js",
+  "scripts": {
+    "test": "node .",
+    "start": "nodemon index.js"
+  },
+  "author": "DeadRedDiamond42, Mohtasim Alam Sohom, JhunJhuni Team, Tantrik, Shahed Iqbal, JustMe",
+  "license": "MIT"
+}
