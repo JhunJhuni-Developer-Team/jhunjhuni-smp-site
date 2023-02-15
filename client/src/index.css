@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Kohinoor Bangla",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  color: white;
+  background-color: rgba(148, 0, 211, 0.886);
+  box-shadow: none;
+  text-shadow: none;
+}
+
+@font-face {
+  font-family: "Kohinoor Bangla";
+  src: url(fonts/KohinoorBangla-Regular.otf);
+}
+
+@font-face {
+  font-family: "Operator Mono Medium";
+  src: url(fonts/OperatorMono-Medium.otf);
+}
+@font-face {
+  font-family: "Operator Mono MediumItalic";
+  src: url(fonts/OperatorMono-MediumItalic.otf);
+}
+@font-face {
+  font-family: "Operator Mono Bold";
+  src: url(fonts/OperatorMono-Bold.otf);
+}
+@font-face {
+  font-family: "Operator Mono BoldItalic";
+  src: url(fonts/OperatorMono-BoldItalic.otf);
+}
+@font-face {
+  font-family: "Operator Mono Book";
+  src: url(fonts/OperatorMono-Book.otf);
+}
+@font-face {
+  font-family: "Operator Mono BookItalic";
+  src: url(fonts/OperatorMono-BookItalic.otf);
+}
+@font-face {
+  font-family: "Operator Mono Light";
+  src: url(fonts/OperatorMono-Light.otf);
+}
+@font-face {
+  font-family: "Operator Mono LightItalic";
+  src: url(fonts/OperatorMono-LightItalic.otf);
+}
+@font-face {
+  font-family: "Operator Mono XLight";
+  src: url(fonts/OperatorMono-XLight.otf);
+}
+@font-face {
+  font-family: "Operator Mono XLightItalic";
+  src: url(fonts/OperatorMono-XLightItalic.otf);
+}
+@font-face {
+  font-family: "Operator Mono";
+  src: url(fonts/OperatorMono-Bold.otf);
+  src: url(fonts/OperatorMono-BoldItalic.otf);
+  src: url(fonts/OperatorMono-Medium.otf);
+  src: url(fonts/OperatorMono-MediumItalic.otf);
+  src: url(fonts/OperatorMono-Book.otf);
+  src: url(fonts/OperatorMono-BookItalic.otf);
+  src: url(fonts/OperatorMono-Light.otf);
+  src: url(fonts/OperatorMono-LightItalic.otf);
+  src: url(fonts/OperatorMono-XLight.otf);
+  src: url(fonts/OperatorMono-XLightItalic.otf);
+}
+code {
+  font-family: "Operator Mono BoldItalic", "Operator Mono Bold", "Verdana",
+    "Fira Sans", source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+  font-style: italic;
+}
+
+.extra-0000000000002 {
+  margin-bottom: 0.5cm;
+  color: transparent;
+  cursor: default;
+}
+.extra-0000000000002::selection {
+  color: transparent;
+  background-color: transparent;
+  cursor: default;
+}
