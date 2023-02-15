@@ -1,0 +1,57 @@
+.status {
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jXshAij {
+  text-align: center;
+  color: darkviolet;
+}
+.green {
+  color: green;
+}
+.light-green {
+  color: lightgreen;
+}
+.light-red {
+  color: rgb(228, 54, 54);
+}
+.light-yellow {
+  color: rgb(255, 255, 0);
+}
+.golden {
+  color: gold;
+}
+.grey {
+  color: grey;
+}
+.jhu-xU-V {
+  color: rgb(255, 68, 0);
+}
+.jhu-x5-I {
+  color: rgb(58, 222, 135);
+}
+.jhu-x5-I img {
+  size: 1cm;
+}
+.o-p-data {
+  font-size: xx-large;
+  display: inline-block;
+  color: skyblue;
+}
+.v-name {
+  font-size: 30px;
+  display: inline-block;
+  color: dodgerblue;
+}
+.pro {
+  color: seagreen;
+  font-size: 40px;
+}
+.v-pro {
+  font-size: 35px;
+  display: inline-block;
+  color: rgb(134, 52, 206);
+}
