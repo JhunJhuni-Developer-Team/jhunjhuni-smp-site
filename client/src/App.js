@@ -7,20 +7,29 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 library.add(faMoon, faSun);
 
+const lightTheme = {
+  backgroundImage:
+    "url(https://cdn.discordapp.com/attachments/1035924822842150994/1074281874718986261/image.png)",
+  color: "black",
+};
+
+const darkTheme = {
+  backgroundImage:
+    "url(https://cdn.discordapp.com/attachments/1035924822842150994/1074281929995718706/image.png)",
+  color: "white",
+};
+
+const textLightTheme = {
+  color: "black",
+};
+
+const textDarkTheme = {
+  color: "white",
+};
+
 const ThemeSwitcher = () => {
   const [theme, setTheme] = useState(localStorage.getItem("theme") || "light");
 
-  const lightTheme = {
-    backgroundImage:
-      "url(https://cdn.discordapp.com/attachments/1035924822842150994/1074281874718986261/image.png)",
-    color: "black",
-  };
-
-  const darkTheme = {
-    backgroundImage:
-      "url(https://cdn.discordapp.com/attachments/1035924822842150994/1074281929995718706/image.png)",
-    color: "white",
-  };
   const toggleTheme = () => {
     const newTheme = theme === "light" ? "dark" : "light";
     setTheme(newTheme);
@@ -44,26 +53,6 @@ const ThemeSwitcher = () => {
 
 function App() {
   const [theme, setTheme] = useState(localStorage.getItem("theme") || "light");
-
-  const lightTheme = {
-    backgroundImage:
-      "url(https://cdn.discordapp.com/attachments/1035924822842150994/1074281874718986261/image.png)",
-    color: "black",
-  };
-
-  const darkTheme = {
-    backgroundImage:
-      "url(https://cdn.discordapp.com/attachments/1035924822842150994/1074281929995718706/image.png)",
-    color: "white",
-  };
-
-  const textLightTheme = {
-    color: "black",
-  };
-
-  const textDarkTheme = {
-    color: "white",
-  };
 
   const themeStyles = theme === "light" ? lightTheme : darkTheme;
   const textThemeStyles = theme === "light" ? textLightTheme : textDarkTheme;
