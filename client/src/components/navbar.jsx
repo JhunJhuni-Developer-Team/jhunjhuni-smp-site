@@ -31,10 +31,6 @@ const NavBarComp = (props) => {
             <FontAwesomeIcon icon={faShoppingCart} />
             Shop
           </a>
-          <a href="/status">
-            <FontAwesomeIcon icon={faClockFour} />
-            Status
-          </a>
         </div>
       </div>
     );
