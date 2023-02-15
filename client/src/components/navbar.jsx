@@ -52,10 +52,6 @@ const NavBarComp = (props) => {
             <FontAwesomeIcon icon={faShoppingCart} />
             Shop
           </a>
-          <a href="/status">
-            <FontAwesomeIcon icon={faClockFour} />
-            Status
-          </a>
         </div>
       </div>
     );
@@ -76,10 +72,6 @@ const NavBarComp = (props) => {
           <a href="/shop" className="active">
             <FontAwesomeIcon icon={faShoppingCart} />
             Shop
-          </a>
-          <a href="/status">
-            <FontAwesomeIcon icon={faClockFour} />
-            Status
           </a>
         </div>
       </div>
@@ -102,10 +94,6 @@ const NavBarComp = (props) => {
             <FontAwesomeIcon icon={faShoppingCart} />
             Shop
           </a>
-          <a href="/status" className="active">
-            <FontAwesomeIcon icon={faClockFour} />
-            Status
-          </a>
         </div>
       </div>
     );
@@ -126,10 +114,6 @@ const NavBarComp = (props) => {
           <a href="/shop">
             <FontAwesomeIcon icon={faShoppingCart} />
             Shop
-          </a>
-          <a href="/status">
-            <FontAwesomeIcon icon={faClockFour} />
-            Status
           </a>
         </div>
       </div>
